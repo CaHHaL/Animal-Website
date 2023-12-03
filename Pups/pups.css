@@ -1,0 +1,495 @@
+body{
+    margin: 0px;
+}
+.head_blank{
+    background-color: white;
+    display: inline-block;
+    height:44px;
+    width:135px;
+    color:white;
+}
+.head_Adopt{
+    background-color: #6CD9D3;
+    display: inline-block;
+    height:47px;
+    width:135px;
+    
+}
+.head_Rehome{
+    display: inline-block;
+    height:44px;
+    width:135px;
+    color:#6CD9D3;
+}
+#Adopt,#Rehome{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:18px;
+    
+
+}
+#Adopt{
+    position: relative;
+    top:10px;
+    left:44px; 
+    color:black;
+}
+#Rehome{
+    color:#6CD9D3;
+    position: relative;
+    top:10px;
+    left:44px; 
+}
+.navbar{
+    height:84px;
+    width:100%;
+    background-color: #6CD9D3;
+    display: inline-block;
+   
+}
+.head{
+     width:100%;
+    display: inline-block;
+}
+.logo_logo{
+    height:80px;
+    margin-left: 50px;
+    display: inline-block;
+    
+}
+.logo{
+    display: inline-block;
+}
+.navcontent1,.navcontent,.navcontent2,.navcontent3,.navcontent4,.navcontent5{
+    display: inline-block;
+}
+.navcontent1,.navcontent2,.navcontent3,.navcontent4,.navcontent5{
+    margin:30px;
+    font-size: 24px;
+    font-family:sans-serif;
+    
+}
+.navcontent1{
+    position:absolute;
+    top:48px;
+    left:380px;
+}
+.navcontent2{
+    position:absolute;
+    top:48px;
+    left:519px;
+}
+.navcontent3{
+    position:absolute;
+    top:48px;
+    left:687px;
+}
+.navcontent4{
+    position:absolute;
+    top:48px;
+    left:805px;
+}
+.navcontent5{
+    position:absolute;
+    top:48px;
+    left:900px;
+}
+.navlogin,.login,.sign_up{
+    display: inline-block;
+}
+.login{
+    position: absolute;
+    top:66px;
+    left:1270px;
+    
+}
+.sign_up{
+    position: absolute;
+    top:66px;
+    left:1400px;
+    
+}
+button{
+    border-radius:35px;
+    height:44px;
+    width:100px;
+}
+.login_button{
+    background-color:whitesmoke;
+    border-color: black;
+}
+.signup_button{
+    background-color:black;
+    border-color: black;
+    color:white
+}
+input::placeholder{
+  font-size: 18px;
+}
+.events{
+    display: inline-block;
+    background-color: rgba(27, 26, 26,1);
+    height:750px;
+    width:100%;
+}
+.title{
+    color:azure;
+}
+.title1{
+    color:aliceblue;
+    
+}
+.events_img{
+    border-radius: 35px;
+    position: absolute;
+    top:220px;
+    right:100px;
+    height:400px;
+    width:420px;
+}
+.title{
+    position:absolute;
+    top:190px;
+    left:100px;
+    font-size: 90px;
+    
+}
+animal{
+   color:yellow;
+}
+.title1{
+    position:absolute;
+    top:500px;
+    left:100px;
+    font-size: 30px;
+}
+.animal2{
+    font-family:'Times New Roman', Times, serif
+}
+.navcontent1:hover{
+    color:grey;
+}
+.search1,.search2,.search3{
+    display: inline-block;
+}
+.search11,.search21,.search31{
+    background-color: transparent;
+    border-radius:0px;
+    border-color: transparent;
+    font-size: 18px;
+    font-family:sans-serif;
+    font-weight:600;
+}
+.search11:hover,.search21:hover,.search31:hover{
+    font-weight:bolder;
+    font-size: 25px;
+}
+.search_first{
+    height:58px;
+    width:490px;
+    margin-left: 25px;
+    margin-top: 10px;
+    border-radius:10px;
+}
+.search_second{
+    height:58px;
+    width:260px;
+    border-radius:10px;
+    font-size: 18px;
+}
+.search_third{
+    height:58px;
+    width:260px;
+    border-radius:10px;
+    font-size: 18px;
+}
+.search_fourth{
+    height:58px;
+    width:180px;
+    background-color: black;
+    color:white;
+    font-size: 18px;
+}
+  .search{
+    width:1250px;
+    height:150px;
+    background-color: #6CD9D3;
+    border-radius:15px 15px 0px 0px;
+    position:absolute;
+    top:735px;
+    left:136px;
+    
+
+}
+.rights{
+    
+    background-color: #6CD9D3;
+    height:70px;
+    width: 100%;
+    display: inline-block;
+    color: #6CD9D3;
+}
+.features_pet{
+   
+    text-align: center;
+}
+.features_pet1{
+    font-size: 55px;
+    margin-bottom: 10px;
+    margin-top: 22px;
+}
+.features_pet2{
+    font-size: 28px;
+    
+}
+.features_pet_details{
+    height: 570px;
+    width:1200px;
+    background-color:white;
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+.features_pet_details1{
+    background-color: #6CD9D3;
+    border-radius: 15px;
+    width: 370px;
+    height: 500px;
+    text-align: center;
+    box-shadow:0 0 15px rgba(0,0,0,0.2);
+
+}
+.features_pet_details2{
+    background-color: #D9D36C;
+    width: 370px;
+    border-radius: 15px;
+    height: 500px;
+    text-align: center;
+    box-shadow:0 0 20px rgba(0,0,0,0.4);
+    
+}
+.features_pet_details3{
+    background-color: #D36CD9;
+    width: 370px;
+    border-radius: 15px;
+    height: 500px;
+    text-align: center;
+    box-shadow:0 0 15px rgba(0,0,0,0.2);
+    
+}
+.features_pet_details11{
+    padding-top: 20px;
+    height: 320px;
+    border-radius:75px;
+    
+}
+.tools{
+    height: 370px;
+    width:1300px;
+    background-color:white;
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+.tools1{
+    height: 320px;
+    width:300px;
+    
+}
+.adoption_advice{
+    width: 100%;
+    height: 650px;
+    background-color:rgb(243, 238, 238);
+    margin-top: 100px;
+    
+}
+.adoption_advice1{
+    text-align: center;
+    font-size:55px;
+    padding-top:80px;
+    padding-bottom: 0px;
+    line-height: 3px;
+    
+}
+.adoption_advice2{
+    
+    text-align: center;
+    font-size:30px;
+    padding-top:0px;
+    font-weight:200
+}
+.adoption_advice3{
+    display: flex;
+    justify-content:center;
+    
+    width:83%;
+    
+    margin: auto;
+}
+.adoption_advice32{
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size:18px ;
+}
+.features_pet21{
+    text-align: center;
+    font-size: 30px;
+}
+.donation{
+    background-color: #6CD9D3;
+    height: 800px;
+}
+.donation img{
+    margin-left: 100px;
+    margin-top: 65px;
+    border-radius: 15px;
+    height: 665px;
+    width: 680px;
+}
+.donation div{
+    position:absolute;
+    top: 3150px;
+    left: 850px;
+    font-size:55px;
+    
+}
+.donation h1{
+    display: inline-block;
+    font-size:55px;
+    margin-top: 0px;
+    font-family:'Times New Roman', Times, serif;
+    line-height: 0px;
+    
+}
+.donation p{
+    font-size: 25px;
+}
+.donation h2{
+    font-size: 38px;
+    font-weight:300;
+    padding-top: 0px;
+    margin-top: 5px;
+    
+}
+.donation div button{
+    background-color: black;
+    color:#6CD9D3;
+    width:180px;
+    height: 50px;
+    margin-top:20px;
+    margin-left: 190px;
+
+}
+
+
+
+
+
+
+
+
+.check{
+    height:800px;
+    
+    
+}
+.check .features_pet_details div{
+    width: 350px;
+    height: 450px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.ending{
+    width:100%;
+    height:650px;
+    background-color: #6CD9D3;
+    background-image: url("logo.png");
+    background-repeat: repeat-x;
+    background-position:bottom;
+    display: flex;
+}
+ .table1{
+    margin-left: 110px;
+    padding-top: 70px;
+    font-size: 22px;
+    color:rgb(67, 67, 67);
+}
+.table2{
+    margin-left: 60px;
+    padding-top: 70px;
+    font-size: 22px;
+    color:rgb(67, 67, 67);
+}
+.table3{
+    margin-left: 60px;
+    padding-top: 70px;
+    font-size: 22px;
+    color:rgb(67, 67, 67);
+}
+.table4{
+    margin-left: 60px;
+    padding-top: 70px;
+    font-size: 22px;
+    color:rgb(67, 67, 67);
+   
+}
+.table_head{
+ font-weight:bold;
+ font-size: 24px;
+ color: black;
+}
+.ending td{
+    padding: 5.5px;
+}
+.table_search{
+    background-color:#B2F1EE;
+    height: 145px;
+    width: 350px;
+    position: absolute;
+    top:4785px;
+    left:1100px;
+    border-radius: 15px;
+}
+.ending input,.ending label{
+    border-radius: 10px;
+    height: 37px;
+    width:200px;
+    margin-top: 5px;
+    margin-left: 20px;
+    
+}
+.ending label
+{   
+    
+    font-size: 20px;
+    font-weight: 700;
+}.ending input{
+    padding-top: 10px;
+   
+}
+.ending button{
+    background-color: black;
+    color: white;
+    height:45px;
+}
+.navcontent a{
+    text-decoration: none;
+    color: black;
+    font-family:sans-serif;
+}
+.navcontent a:hover{
+    color:grey;
+}

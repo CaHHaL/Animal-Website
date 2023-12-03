@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pups</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <style>
+        body {
+      background-color:#6CD9D3;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    a:link{
+        color:#6CD9D3;
+    }
+    
+    .login-container {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0px 0px 10px 2px #aaa;
+      text-align: center;
+      width: 25%;
+    }
+    
+    .login-header {
+      font-size: 28px;
+      color: #6CD9D3;
+      margin-bottom: 20px;
+    }
+    
+    .login-input {
+      width: 80%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font-size: 18px;
+    }
+    
+    .login-button {
+      background-color:#6CD9D3;
+      color: #fff;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 6px;
+      font-size: 20px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      margin-top: 50px;
+    }
+    
+    .login-button:hover {
+      background-color:#0c6661;
+    }
+    body{
+        
+        background-image:url("lognin.png");
+        backdrop-filter:blur(3px);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    </style>
+</head>
+<body>
+
+    <div class="login-container">
+        <div class="login-header">Sign up</div>
+        <input type="text" class="login-input" placeholder="Name">
+        <input type="text" class="login-input" placeholder="Age">
+        <input type="text" class="login-input" placeholder="Username / Email">
+        <input type="password" class="login-input" placeholder="Password"> <br>
+        <form action="Home.html"> <button class="login-button">Sign up</button></form>
+        <br><br>
+        <div class="login-options">
+          <a href="#">Forgot Password?</a>
+          <span>&nbsp;|&nbsp;</span>
+          <a href="signin_main.html">Log in</a>
+        </div>
+      </div>
+</body>
+</html>
